@@ -1,0 +1,73 @@
+﻿/*Global*/
+
+body {
+    background-color: rgba(211,211,211, 0.25);
+}
+
+i{
+    cursor: pointer;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   cursor: pointer;
+   border: none;
+}
+
+#title{
+    font-size: 5rem;
+}
+
+
+/*Break Component*/
+
+#break-container{
+    margin-bottom: 3%;
+}
+#break-length {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#break-decrement-increment{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Timer Component*/
+
+#timer-container{
+    border: 3px solid black;
+    width: 25%;
+    text-align: center;
+    border-radius: 10%;
+}
+
+#time-label{
+    text-align: center;
+}
+
+#start_stop{
+    display: flex;
+    justify-content:space-around;
+}
+/*Session Length Component*/
+#session-container{
+    margin-top: 3%;
+}
+
+#session-length {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#session-decrement-increment{
+    display: flex;
+    justify-content: space-between;
+}
